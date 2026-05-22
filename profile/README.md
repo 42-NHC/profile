@@ -1,414 +1,231 @@
 <!-- ========================================================= -->
-<!-- ===================== 42 NHC README ===================== -->
+<!-- ==================== NITRO TYPE README ================== -->
 <!-- ========================================================= -->
 
 <h1 align="center">
-  🚀 42 Next Human Code (42 NHC)
+  🚀 Nitro Type
 </h1>
 
 <p align="center">
-  <strong>An integrated programming learning ecosystem.</strong><br/>
-  Practice. Compete. Learn. Collaborate.
+  <strong>A competitive typing platform focused on code accuracy and speed.</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20development-orange" />
-  <img src="https://img.shields.io/badge/focus-technical%20mastery-blue" />
+  <img src="https://img.shields.io/badge/focus-code%20typing-blue" />
   <img src="https://img.shields.io/badge/gamification-active-green" />
-  <img src="https://img.shields.io/badge/community-driven-purple" />
+  <img src="https://img.shields.io/badge/community-future-lightgrey" />
 </p>
 
 ---
 
-# 🌌 What is 42 NHC?
+# 🌌 What is Nitro Type?
 
-**42 Next Human Code (42 NHC)** is a fully integrated programming platform focused on:
+**Nitro Type** is a typing platform designed to improve:
 
-- 🧠 Technical skill development  
-- ⚡ Competitive performance  
-- 📚 Structured learning  
-- 🐞 Learning from real-world mistakes  
-- 👥 Active module-based communities  
+- ⚡ Typing speed
+- 🎯 Accuracy
+- 🧠 Technical vocabulary
+- ⌨️ Code rewriting precision
 
-It is not just a coding platform.
-
-It is a **technical evolution system**.
+The platform focuses on helping developers practice typing real programming-related content in a competitive and measurable way.
 
 ---
 
-# 🎯 Project Vision
+# 🎯 Main Goal
 
-To create a single ecosystem where users can:
+Train users to type faster and more accurately using:
 
-> **Learn. Practice. Compete. Collaborate. Grow.**
-
-All inside one unified platform.
-
----
-
-# 🧩 Core Modules
-
-42 NHC is structured around independent but interconnected modules.
-
----
-
-## ⌨️ 1. Typing Code
-
-### 🎯 Goal
-
-Train:
-
-- Typing speed
-- Accuracy
-- Technical vocabulary
-- Code rewriting precision
-
----
-
-### 📂 Challenge Categories
-
-#### 🧾 Programming (Text)
-- Definitions
+- Programming text
 - Technical concepts
-- Data structures
-- Technologies
-
-#### 🎌 Anime (Text)
-- Quotes
-- Character dialogues
-
-#### 🧠 Function (Code)
-- Generate a function to rewrite
-
-#### ⚙️ Algorithm (Code)
-- Generate a complete algorithm to rewrite
+- Functions
+- Algorithms
+- Real code snippets
 
 ---
 
-### 📊 Captured Metrics
+# ⌨️ Typing Modes
+
+## 🧾 Programming Text
+
+Practice typing:
+
+- Definitions
+- Technical explanations
+- Programming concepts
+- Data structure descriptions
+
+---
+
+## 🧠 Function Mode
+
+The system generates a function for the user to rewrite.
+
+Example:
+
+```js
+function sum(a, b) {
+  return a + b;
+}
+```
+
+---
+
+## ⚙️ Algorithm Mode
+
+The system generates a complete algorithm or larger code block to rewrite.
+
+Focus:
+- Precision
+- Speed
+- Syntax accuracy
+
+---
+
+# 📊 Metrics Captured
+
+Each session stores:
 
 - Total hits
 - Total errors
+- Accuracy
 - Errors per key
-- Accuracy per key
-- XP earned
-- Words per minute
 - Characters per second
+- Words per minute (WPM)
+- XP earned
 
 ---
 
-### 🚀 Session Flow
+# 🚀 Session Flow
 
-1. Select category
-2. Select difficulty
-3. Backend generates:
+1. User selects category
+2. User selects difficulty
+3. System generates:
    - Random content
    - Time limit
-   - Challenge session
-4. User types within time limit
-5. Metrics are stored
+   - Typing session
+4. User types the content
+5. Metrics are calculated
 6. XP is awarded
-7. Ranking updated
+7. Ranking is updated
 
 ---
 
-### 📈 What the User Sees After Completion
+# 📈 End of Session Results
+
+After completion, the user sees:
 
 - Accuracy rate
 - Total hits
 - Total errors
+- WPM
 - XP gained
 - Updated level
-- Updated rank
-- Detailed key statistics
+- Key performance statistics
 
 ---
 
-## 🏆 2. Competitive Programming
+# 🏆 Progression System
 
-Inspired by competitive coding platforms.
+## 🧠 Levels
 
----
-
-### 🎯 Goal
-
-Solve exercises based on:
-
-- Language choice
-- Efficiency
-- Time performance
-- Submission count
+- Users start at Level 0
+- XP increases level progression
+- Higher levels require more XP
 
 ---
 
-### 📦 Exercise Structure
+## 📈 XP Curve
 
-Each exercise includes:
+XP is not linear.
 
-- Domain (Logic, AI, Data Structures, etc.)
-- Difficulty
-- Max XP
-- Ideal completion time
-- Domain points
+Formula used:
 
----
+```txt
+XP_required = 100 * (level ^ 1.2)
+```
 
-### 🧮 XP Logic (Time-Based Scaling)
+This creates:
 
-If an exercise is worth **50 XP** and ideal time is **10 minutes**:
-
-| Time Taken | XP Earned |
-|------------|----------|
-| 5 min      | 50 XP |
-| 10 min     | 50 XP |
-| 20 min     | 25 XP |
-
-XP accumulates until the maximum for that exercise is reached.
-
-After max XP:
-- Can repeat
-- No additional XP earned
+- Better long-term progression
+- Balanced difficulty scaling
+- More meaningful leveling
 
 ---
 
-### 🎲 Random Challenge Mode
+# 🎮 Gamification
 
-User can choose:
+Progression is based on:
 
-- Domain
-- Difficulty
-- Or none
-
-If none:
-→ System randomly selects domain and difficulty.
-
----
-
-### ⚙️ Submission System
-
-- Real-time test validation
-- Per-test progress
-- Timeout detection
-- Execution time measurement
-- XP calculation
-- Domain progression
-
----
-
-### 🏗️ Technical Architecture Highlights
-
-- Strong transactional XP control
-- Idempotent submissions
-- Anti-duplication locking
-- Secure sandbox execution
-- Asynchronous validation pipeline
-- Judge-like system
-
----
-
-## 📚 3. Learn Programming
-
-Structured, optimized technical education.
-
-### Includes:
-
-- Language-based learning paths
-- Concept-based modules
-- Best practices vs bad practices
-- Progressive level content
-- Clear technical explanations
-
-Focus: **Depth and clarity over superficial tutorials.**
-
----
-
-## 🐞 4. Learning From Bugs
-
-A structured error-learning system.
-
-### Features:
-
-- Common mistake database
-- Technical explanations
-- Commented solutions
-- Open discussions
-- Voting system
-
-Inspired by collaborative Q&A models — but organized by platform modules.
-
----
-
-# 👤 User Profile System
-
-Each user has:
-
-- Public profile
-- Module-based progression
-- Ranking
-- Activity history
-- Achievements
-- Medals
-
-Each module has independent progression.
-
----
-
-# 📊 Progression System
-
-## 🧠 Level System
-
-- Users start at **Level 0 – Rank 0**
-- XP increases level
-- Level increases rank automatically
-
----
-
-## 🏅 Rank Structure (Per Module)
-
-| Rank | Title |
-|------|--------|
-| 1 | Supreme Architect |
-| 2 | Master |
-| 3 | Specialist |
-| 4 | Competitor |
-| 5 | Strategist |
-| 6 | Challenger |
-| 7 | Programmer |
-| 8 | Apprentice |
-| 9 | Explorer |
-| 10 | Novice |
-
----
-
-## 🏆 Global Ranking
-
-Calculated from average module rank.
-
-| Title | Rank |
-|--------|------|
-| 42 Next Human Coder | 1 |
-| Cadete | 7 | 1 |
-| Pisciner | 3 |
-
----
-
-# 📈 Progression Curve
-
-XP is **not linear**.
-
-Instead of: **XP = level * 100**
-
-We use a soft exponential curve: **XP_required = 100 * (level ^ 1.2)**
-
-This ensures:
-
-- Long-term engagement
-- Sustainable challenge
-- Meaningful progression
-- No early over-leveling
-
-This is known as a **progression curve**.
-
----
-
-# 🌍 Community System
-
-## 📢 Module Channels
-
-Each module has:
-- Official discussion channel
-- Technical conversations
-- Community sharing
-
----
-
-## 👥 Organizations
-
-Users can:
-
-- Create organizations
-- Invite members
-- Create internal tournaments
-- Create private channels
-- Build learning squads
-
----
-
-# 🎮 Strategic Gamification
-
-Rank progression depends on:
-
-- XP gained
-- Challenge performance
-- Tournament participation
+- Typing accuracy
+- Speed
 - Consistency
-- Skill improvement
+- Session performance
 
 Not just time spent.
 
 ---
 
-# 🔥 What Makes 42 NHC Different?
+# 👤 User Profile
 
-42 NHC integrates:
+Each user has:
 
-- Technical training
-- Competitive programming
-- Structured education
-- Error-based learning
-- Cognitive training
-- Active communities
-- Gamified progression
-
-All inside **one unified ecosystem**.
+- Public profile
+- Typing statistics
+- XP progression
+- Ranking
+- Activity history
 
 ---
 
-# 🏗️ High-Level Architecture Vision
+# 🏅 Ranking System
 
-- Modular domain separation
-- Independent XP per module
-- Asynchronous processing pipelines
-- Secure code sandbox
-- Real-time ranking updates
-- Audit-safe transaction handling
+Users compete through:
+
+- Accuracy
+- WPM
+- XP earned
+- Consistency
+
+Global rankings update dynamically.
 
 ---
 
-# 🚀 Future Vision
+# 🏗️ Technical Vision
 
-- Global tournaments
-- AI-based adaptive difficulty
-- Advanced performance analytics
-- Team-based competitions
-- Technical certifications
-- Real-time multiplayer coding battles
+- Real-time typing engine
+- Session-based architecture
+- Accurate key tracking
+- XP progression system
+- Ranking infrastructure
+- Scalable backend structure
+
+---
+
+# 🚀 Future Plans
+
+- Multiplayer typing battles
+- Real-time competitions
+- Friends system
+- Private rooms
+- Advanced analytics
+- Custom typing challenges
 
 ---
 
 # 💡 Philosophy
 
-> "You don't become better by consuming content.
-> You become better by doing, failing, adjusting, and repeating."
+> "Typing is not only speed.
+> Precision matters."
 
-42 NHC is designed around this principle.
-
----
-
-# 🧠 42 NHC — The Evolution Platform
-
-This is not just about coding.
-
-It is about becoming:
-
-> A disciplined, competitive, technically precise developer.
+Nitro Type focuses on creating disciplined and technically accurate typing practice.
 
 ---
 
 <p align="center">
-  ⚡ Train Hard. Code Smart. Compete Strong. ⚡
+  ⚡ Type Fast. Type Smart. ⚡
 </p>
 
 <p align="center">
-  <strong>42 Next Human Code</strong>
+  <strong>Nitro Type</strong>
 </p>
